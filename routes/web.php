@@ -11,6 +11,10 @@
 |
 */
 
+Route::get('/', function () {
+    return redirect('linkedin');
+});
+
 Route::get('linkedin', function () {
     return view('loginlinkedin');
 });
